@@ -57,3 +57,18 @@ console.log(arr4); // ['Marie', 'Natalia','Jamal', 'Jake','James', 'Nadia','Mari
 // to remove all falsy values like empty space, undefined, and remove all repetitive words, we combine set and filter method
 const arr5 = [...new Set(arr2.filter(Boolean))];
 console.log(5, arr5); // [ 'Marie', 'Natalia', 'Jamal', 'Jake', 'James', 'Nadia' ]
+
+// loops
+console.log("**For Loop**");
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+console.log("**While Loop**");
+let i = 0;
+while (i < arr.length) {
+  console.log(arr[i]);
+  i++;
+}
+
+console.log("**forEach**");
+arr.forEach(() => {});
